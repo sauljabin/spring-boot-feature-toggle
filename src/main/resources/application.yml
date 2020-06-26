@@ -1,2 +1,8 @@
 feature:
   experimental: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health

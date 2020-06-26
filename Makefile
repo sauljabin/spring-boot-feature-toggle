@@ -15,3 +15,6 @@ foo:
 
 bar:
 	curl -X POST http://localhost:8080/bar | python -m json.tool
+
+features:
+	curl http://localhost:8080/features | python -m json.tool
